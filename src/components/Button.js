@@ -1,7 +1,8 @@
 import React from 'react';
+import styled from 'styled-components';
 
-const Button = ({ children }) => {
-    return <button>{children}</button>;
-};
+const Button = styled.button`
+    color: ${props => props.color};
+`;
 
 export default Button;
