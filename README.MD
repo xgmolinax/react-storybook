@@ -2,7 +2,7 @@
 
 [![Storybook](https://github.com/storybooks/press/blob/master/badges/storybook.svg)](https://github.com/storybooks/storybook)
 
-React Storybook is a preconfigured development environment and repository for React reusable UI components using [Storybook](https://github.com/storybooks/storybook), [Styled-Components](https://github.com/styled-components/styled-components) and [Styled-System](https://github.com/jxnblk/styled-system). Use it to browse your component library, view the different states of each component, and interactively develop and test components.
+React Storybook is a preconfigured development environment and repository for React reusable UI components using [Storybook](https://github.com/storybooks/storybook), [Styled-Components](https://github.com/styled-components/styled-components), [Styled-System](https://github.com/jxnblk/styled-system) and [Rebass](https://github.com/rebassjs/rebass). Use it to browse your component library, view the different states of each component, and interactively develop and test components.
 
 ## Getting Started
 
@@ -29,3 +29,4 @@ Project Runs on http://localhost:9001/
 -   [Storybook](https://github.com/storybooks/storybook) - UI Component Development Environment
 -   [Styled-Components](https://github.com/styled-components/styled-components) - CSS in JS
 -   [Styled-System](https://github.com/jxnblk/styled-system) - Building Design Systems
+-   [Rebass](https://github.com/jxnblk/styled-system) - Primitive UI components

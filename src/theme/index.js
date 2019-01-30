@@ -32,6 +32,10 @@ export const theme = {
     width: [16, 32, 64, 128, 256],
     heights: [16, 32, 64, 128, 256],
     maxWidths: [16, 32, 64, 128, 256, 512, 768, 1024, 1536],
+    shadows: {
+        small: '0 0 4px rgba(0, 0, 0, .125)',
+        large: '0 0 24px rgba(0, 0, 0, .125)'
+    },
     colors: {
         black: '#000',
         'near-black': '#111',
