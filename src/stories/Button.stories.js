@@ -8,7 +8,7 @@ storiesOf('Button', module)
     .addWithJSX(
         'with text',
         wInfo('This is an example of a Button')(() => (
-            <Button p={4} color={color('Color', 'green')}>
+            <Button p={4} color={color('Color', 'green')} bg="washed-red">
                 {text('Label', 'Hello Button')}
             </Button>
         )),
@@ -16,7 +16,7 @@ storiesOf('Button', module)
     )
 
     .addWithJSX('with some emoji', () => (
-        <Button>
+        <Button bg="washed-red">
             <span role="img" aria-label="so cool">
                 😀 😎 👍 💯
             </span>
