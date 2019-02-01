@@ -1,4 +1,5 @@
 export const theme = {
+    name: 'default',
     breakpoints: [32, 48, 64],
     space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
     fontSizes: [12, 14, 16, 20, 24, 36, 48, 80, 96],
@@ -37,6 +38,7 @@ export const theme = {
         large: '0 0 24px rgba(0, 0, 0, .125)'
     },
     colors: {
+        primary: '#aaa',
         black: '#000',
         'near-black': '#111',
         'dark-gray': '#333',
